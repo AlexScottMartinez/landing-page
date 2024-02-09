@@ -4,5 +4,5 @@ Using the material I have learned from The Odin Project's HTML, CSS, and Flexbox
 
 ## Screenshots
 
-![Example Landing Page](https://imgur.com/QFuZG0B)
-![Helper For Landing Page Example](https://imgur.com/cdZ6pYU)
+![Example Landing Page](https://i.imgur.com/QFuZG0B.png)
+![Helper For Landing Page Example](https://i.imgur.com/cdZ6pYU.png)
