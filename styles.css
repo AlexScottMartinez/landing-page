@@ -1,52 +1,89 @@
-* {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
     height: 100%;
-}
-.header-container {
-    background-color: #1F2937;
-    height: 280px;
-}
-
-.white-container-one {
-    background-color: #FFFFFF;
-    height: 260px;
-}
-
-.grey-container {
-    background-color: #E5E7EB;
-    height: 240px;
-}
-
-.white-container-two {
-    background-color: #FFFFFF;
-    height: 180px;
-}
-
-.footer-container {
-    background-color: #1F2937;
-    height: 57px;
-}
-.footer {
+    margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-size: 18px;
-    color: #e5e7eb;
+    min-height: 220vh;
+}
+/* NAVBAR */
+.navbar {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 3px 10%;
 }
 
+.navbar-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0px;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+/* HEADER */
 .header {
     display: flex;
-}
-.header-links {
-    display: flex;
-}
-
-.header h1 {
-    font-size: 24px;
-    color: #f9faf9;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 10%;
+    background-color: #1f2937;
+    align-self: stretch;
 }
 
-.header-links div {
+.header-left {
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+.header-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-left p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-left button {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header-right img {
+    object-fit: contain;
+    width: 100%;
 }
